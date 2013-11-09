@@ -1,0 +1,37 @@
+Go to http://github.com and create account
+
+Go through this article
+https://help.github.com/articles/set-up-git
+
+Install git on your system
+
+Setup default settings for yoyr system
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@example.com"
+
+Then go through this tutorial and make a new repository
+https://help.github.com/articles/create-a-repo
+
+Create a folder and go in it
+mkdir ProjectName
+cd ProjectName
+
+Init a new repository
+git init
+
+Create a simple file in it
+touch README.md
+
+Add it to a repo
+git add README
+
+Make a new commit
+git commit -m 'first commit'
+
+Connect it with your repo
+git remote add origin https://github.com/username/ProjectName.git
+
+And finnaly push it to the server
+git push -u origin master
+
+Go to your repository page and see what you have now
