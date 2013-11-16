@@ -3,15 +3,15 @@ TrainSoft-JavaScript-2013
 
 Repository for the lectures in TrainSoft
 
+## Course videos
+
+Lecture 1 - 16.11.2013 - https://mega.co.nz/#F!fJs2TCBQ!Xz8W20aLGFdk-FQcAER-ng
+
 ## Setup your repository
 
 This is a simple tutorial which will show you how to work with version control systems in a few steps. W
 ill show you the basic commands and thing that you have to do to use it. If you found any mistakes or 
 something that you don’t agree so don’t worry, share it with me. Now let’s go!
-
-### Course videos
-
-Lecture 1 - 16.11.2013 - https://mega.co.nz/#F!fJs2TCBQ!Xz8W20aLGFdk-FQcAER-ng
 
 ###First steps
 * Go to http://github.com and create account.
