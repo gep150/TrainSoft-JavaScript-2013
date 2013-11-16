@@ -7,6 +7,9 @@ Repository for the lectures in TrainSoft
 
 Lecture 1 - 16.11.2013 - https://mega.co.nz/#F!fJs2TCBQ!Xz8W20aLGFdk-FQcAER-ng
 
+*Note: You need Camtasia Studio to view the videos because they are in .camerec format. I will try to convert them
+in something more usable when I have time.
+
 ## Setup your repository
 
 This is a simple tutorial which will show you how to work with version control systems in a few steps. W
