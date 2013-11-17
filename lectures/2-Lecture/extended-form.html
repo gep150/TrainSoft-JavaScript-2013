@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    </head>
+    <body>
+        
+        <input type="button" onclick="toggleForm()" value="Toogle the form" />
+        
+        <div class="form">
+        <form>
+            <p>Please fill your data</p>
+            
+            <!--<input type="text" id="username" value="Потребител" onclick="usernameButtonClicked()" onblur="usernameButtonBlurred()" /><br />-->
+            <div id="username-field">
+                <input type="text" id="username" onblur="checkIsFormReadyForSubmit()" value="Потребител" />
+            </div><br />
+            
+            <div id="password-field">
+                <input type="password" id="password" onblur="checkIsFormReadyForSubmit()" value="password" />
+            </div><br />
+            
+            <div id="password2-field">
+                <input type="password" id="password2" onblur="checkIsFormReadyForSubmit()" value="password2" />
+            </div><br />
+            
+            <div id="errors"></div><br />
+            <input type="button" value="Login" onclick="loginButtonClicked()" />
+        </form>
+        </div>
+        
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="jquery.how.js"></script>
+        <script type="text/javascript" src="ajax.js"></script>
+    </body>
+</html>

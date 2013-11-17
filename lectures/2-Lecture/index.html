@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <script type="text/javascript" src="jquery-1.10.2.min"></script>
+    </head>
+    <body>
+        
+        <form>
+            Username: <input type="text" id="username" value="Потребител" onclick="usernameButtonClicked()" onblur="usernameButtonBlurred()" /><br />
+            Password: <input type="password" id="password" value="password" /><br />
+            Password repeat: <input type="password" id="password2" value="password2" /><br />
+            <div id="errors"></div><br />
+            <input type="button" value="Login" onclick="loginButtonClicked()" />
+        </form>
+        
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

@@ -52,6 +52,7 @@ var human = {
 		this.weight += 21;
 	}
 }
+human.eat();
 
 var human2 = {
 	hair: "Brown",
