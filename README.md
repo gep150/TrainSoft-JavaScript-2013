@@ -3,6 +3,12 @@ TrainSoft-JavaScript-2013
 
 Repository for the lectures in TrainSoft
 
+## Course test
+-soon
+
+## Course Project
+- soon
+
 ## Course videos
 
 Lecture 1 - 16.11.2013 - https://mega.co.nz/#F!fJs2TCBQ!Xz8W20aLGFdk-FQcAER-ng
