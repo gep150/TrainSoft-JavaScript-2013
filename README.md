@@ -10,8 +10,13 @@ Fill it online and submit it with your email
  - https://docs.google.com/forms/d/1ceFM8armenT-tZy70wYnh61SJnK5dboxNlhePOY9l-0/viewform
 
 ## Course Project
- - Project info is placed here - https://docs.google.com/document/d/1e2JuQZv1YAeROaoeJ1cw4QsFBlZKXHXB47LHuzw7yPg/edit?usp=sharing
- - Project source files are here - https://github.com/valkirilov/TrainSoft-JavaScript-2013/tree/master/project
+Project info is placed here
+
+ - https://docs.google.com/document/d/1e2JuQZv1YAeROaoeJ1cw4QsFBlZKXHXB47LHuzw7yPg/edit?usp=sharing
+
+Project source files are here
+
+ - https://github.com/valkirilov/TrainSoft-JavaScript-2013/tree/master/project
 
 ## Course videos
 
