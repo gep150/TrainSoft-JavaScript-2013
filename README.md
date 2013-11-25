@@ -3,9 +3,23 @@ TrainSoft-JavaScript-2013
 
 Repository for the lectures in TrainSoft
 
+## Course test
+
+Fill it online and submit it with your email
+
+ - https://docs.google.com/forms/d/1ceFM8armenT-tZy70wYnh61SJnK5dboxNlhePOY9l-0/viewform
+
+## Course Project
+- soon
+
 ## Course videos
 
 Lecture 1 - 16.11.2013 - https://mega.co.nz/#F!fJs2TCBQ!Xz8W20aLGFdk-FQcAER-ng
+
+Lecture 2 - 17.11.2013 - https://mega.co.nz/#F!KdchzIrJ!d2OAnUILPuwZmeX4Pu36Ng
+
+Lecture 3 - 23.11.2013 - https://mega.co.nz/#F!zJFBDLhb!Iju0T2pl_RAs3WD7VgPOxA
+
 
 *Note: You need Camtasia Studio to view the videos because they are in .camerec format. I will try to convert them
 in something more usable when I have time.
