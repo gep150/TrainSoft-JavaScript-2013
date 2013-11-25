@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-Nov-2013, 16:56:27
+    Author     : CODE&design
+*/
+
+body {
+    background: rgba(189, 209, 158, 0.3);
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    font-family: tahoma, verdana, serif;
+    color: #756742;
+}
+
+.content {
+    background: #ECE1A1;
+    width: 980px;
+    height: auto;
+    min-height: 640px;
+    
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+fieldset {
+    border: none;
+    font-size: 1.3em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 320px;
+    height: 32px;
+    
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+p {
+    width: 90%;
+    text-align: left;
+    
+    position: relative;
+    margin: 10px auto;
+}
