@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Nov-2013, 10:33:09
+    Author     : CODE&design
+*/
+
+body{
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(200, 180, 150, 0.3);
+    
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+}
+
+.menu {
+    height: 200px;
+    
+    position: relative;
+    margin: 100px 0 0 300px;
+    padding: 0;
+}
+
+.menu .item {
+    width: 100px;
+    height: 60px;
+    
+    float: left;
+    pointer-events: relative;
+    overflow: hidden;
+    
+    text-align: center;
+    font-size: 1.3em;
+}
+.item p.icon {
+    margin-top: -50px;
+    height: 0px;
+    overflow: hidden;
+
+    /*
+    transform:          scale(0) rotate(-180deg);
+    -webkit-transform:  scale(0) rotate(-180deg);
+    -moz-transform:     scale(0) rotate(-180deg);
+    -o-transform:       scale(0) rotate(-180deg);
+    -ms-transform:      scale(0) rotate(-180deg);
+    
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    */
+}
+/*
+.item p.icon.active {
+    margin-top: 0;
+    opacity: 1;
+    
+    transform:          scale(1) rotate(0deg);
+    -webkit-transform:  scale(1) rotate(0deg);
+    -moz-transform:     scale(1) rotate(0deg);
+    -o-transform:       scale(1) rotate(0deg);
+    -ms-transform:      scale(1) rotate(0deg);
+}
+*/
+.item img {
+    width: 80px;
+}
+
+.item.red { background: red; }
+.item.green { background: green; }
+.item.blue { background: blue; }
+.item.purple { background: purple; }
+.item.yellow { background: yellow; }

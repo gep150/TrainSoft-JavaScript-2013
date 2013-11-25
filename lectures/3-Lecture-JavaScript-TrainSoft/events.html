@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <script type="text/javascript" src="scripts/events.js"></script>
+        
+        <style>
+            form {
+                display: none;
+            }
+            
+        </style>
+        
+    </head>
+    <body onload="initOnLoad()">
+        
+        <div id="loading">LOADING</div>
+        
+        <form>
+            Username: <input type="text" id="username" value="Потребител" /><br />
+            Password: <input type="password" id="password" value="password" /><br />
+            Password repeat: <input type="password" id="password2" value="password2" /><br />
+            <div id="errors"></div><br />
+            <input type="button" value="Login"/>
+        </form>
+    </body>
+</html>

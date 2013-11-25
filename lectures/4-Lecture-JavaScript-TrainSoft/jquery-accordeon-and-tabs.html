@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" type="text/css" href="styles/jqueryui/jquery-ui.css" />
+        <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="scripts/jqueryui/jquery-ui.js"></script>
+    </head>
+    <body>
+        
+
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Tab 1</a></li>
+                <li><a href="#tabs-2">Tab 2</a></li>
+                <li><a href="#tabs-3">Tab 3</a></li>
+            </ul>
+            
+            <div id="tabs-1">
+                
+                <div id="accordion">
+                    <h3>This is title or category</h3>
+                    <p>Some text here is placed now</p>
+
+                    <h3>This is title or category</h3>
+                    <p>Some text here is placed now</p>
+
+                    <h3>This is title or category</h3>
+                    <p>Some text here is placed now</p>
+                </div>
+                
+            </div>
+            <div id="tabs-2">
+                
+                <input id="autocomplete" />
+                
+            </div>
+            <div id="tabs-3">
+                
+                <input id="date" />
+                <div id="progressbar"></div>
+                
+            </div>
+        </div>
+        
+        <script type="text/javascript">
+            
+            var tags = ["green", "red", "blue", "white"];
+            
+            $("#accordion").accordion();
+            $("#tabs").tabs();
+            $("#autocomplete").autocomplete({
+                source: tags
+            });
+            $("#date").datepicker();
+            var pBar = $("#progressbar").progressbar({
+                value: 90
+            });
+            
+            function changeProgressbarValue(newValue) {
+                pBar.progressbar({
+                   value: newValue 
+                });
+            }
+            
+        </script>
+        
+    </body>
+</html>

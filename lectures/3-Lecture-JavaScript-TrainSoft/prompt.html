@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        
+        <style type="text/css">
+            
+            input[type="button"] {
+                width: 300px;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        
+        <input type="button" id="button-prompt" value="Click" />
+        
+        <script type="text/javascript">
+            
+            function buttonClick() {
+                var a = prompt("Enter A:");
+                var b = prompt("Enter B:");
+                var c = prompt("Enter C:");
+                console.log(a);
+            }
+            
+            var button = document.getElementById("button-prompt");
+            button.addEventListener("click", buttonClick, true);
+            
+        </script>
+        
+    </body>
+</html>

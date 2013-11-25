@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Nov-2013, 15:48:01
+    Author     : CODE&design
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(255, 0, 0, 0.5);
+}
+
+div {
+    border: 3px dashed red;
+}
+
+div .child {
+    width: 30%;
+    margin: 10px;
+    background: blue;
+    
+    position: relative;
+    float: left;
+}
