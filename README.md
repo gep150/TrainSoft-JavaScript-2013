@@ -12,6 +12,8 @@ Fill it online and submit it with your email
 ## Course Project
 Project info is placed here
 
+TIP: The project is updated and now we want a few more things from you, see the link below for more info
+
  - https://docs.google.com/document/d/1e2JuQZv1YAeROaoeJ1cw4QsFBlZKXHXB47LHuzw7yPg/edit?usp=sharing
 
 Project source files are here
